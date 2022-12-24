@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Indian Premier League(IPL): First Innings Score Predictor</title>
+        <link rel="shortcut icon" href="{{ url_for('static', filename='ipl-favicon.ico') }}">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+        <script src="https://kit.fontawesome.com/5f3f547070.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+
+    <style>
+body {
+  background-image: url("https://fancyodds.com/wp-content/uploads/2022/01/Cricket-Stadium-Wallpaper-7.jpg");
+  background-position: 200%;
+  background-size: cover;
+}
+</style>
+
+
+    </head>
+
+    <body>
+
+
+        <!-- Website Title -->
+    	<div class="container">
+            <h2 class='container-heading'><span class='heading_first'><b>Indian Premier League(IPL) Score Predictor</b> </span></h2>
+            <div class='description'>
+                <p><h3>A Machine Learning Web App</h3></p>
+    		</div>
+    	</div>
+
+        <!-- Prediction Area -->
+        <div class="prediction-area">
+
+
+			<!-- Result -->
+			<div class="results">
+				<p class='result-p'>The final predicted score (range): {{ lower_limit }} to {{ upper_limit }}</p>
+			</div>
+
+            
+        </div>
+
+
+ <p>
+
+    <br>
+    <b></b>
+    </br>
+
+    <br>
+    <b></b>
+    </br>
+        <br>
+    <b></b>
+    </br>
+        <br>
+    <b></b>
+    </br>
+</p>
+
+
+
+
+        <!-- Footer -->
+       <div class='footer'>
+           <div class="contact">
+               <a target="_blank" href="https://github.com/MrBriit/Indian-Premier-League-IPL-Prediction"><i class="fab fa-github fa-lg contact-icon"></i></a>
+               <a target="_blank" href="https://www.linkedin.com/in/mrbriit/"><i class="fab fa-linkedin fa-lg contact-icon"></i></a>
+           </div>
+           <p class='footer-description'>Made with ❤️ by Pranta Khandaker</p>
+       </div>
+
+    </body>
+</html>
